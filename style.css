@@ -1,0 +1,53 @@
+th, tfoot, tbody, td {
+	border-style: double;
+	border-color: black;
+}
+td:nth-child(1){
+	font-style: italic;
+	background-color: white;
+}
+thead th{
+	background-color: white;
+}
+tfoot td{
+	background-color: white;
+}
+td:nth-child(2) {
+	color: red;
+}
+td:nth-child(4) {
+	color: blue;
+}
+tr:nth-child(odd) {
+	background-color: LightGreen;
+}
+tr:nth-child(even) {
+	background-color: LightBlue;
+}
+dl dt:hover + dd{
+	background-color: purple;
+}
+
+div.outer-content {
+	padding: 20px;
+	height: 75px;
+	width: 75%;
+	background-color: HotPink;
+}
+div.inner-content {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	margin : 0 auto;
+	height: 75%;
+	width: 75%;
+	background-color: LightBlue;
+}
+img {
+	width: 100px;
+	height: 125px;
+	float: left;
+	margin-right: 10px;
+}
+
+
